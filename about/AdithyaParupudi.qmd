@@ -1,0 +1,37 @@
+---
+title: "Adithya Parupudi"
+image: images/AdithyaParupudi.jpg
+about:
+  template: solana
+  image-width: 15em
+  image-shape: round
+  image: images/AdithyaParupudi.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Adithya1243
+---
+
+## Education/Work Background
+
+I've graduated in 2019 with Bachelor's in Computer Science and Engineering from JNTU, Hyderabad. I have worked in the IT industry for 2.5years with Oracle SOA 12c technology.
+
+## R experience
+
+DACSS 601 :)
+
+## Research interests
+
+Stock Market, Geopolitics, Effect of music on mankind.
+
+## Hometown
+
+I'm from Hyderabad, India.
+
+## Hobbies
+
+Cooking and Anime
+
+## Fun fact
+
+I'm scared of heights.
