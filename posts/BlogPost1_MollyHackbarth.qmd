@@ -259,6 +259,8 @@ My current research question is: Do Reddit and Twitter differentiate on their vi
 
 A different research question I may use if I only use one social media platform: How does Reddit/Twitter view contestants and their relationships in *Love is Blind Japan*?
 
+I will gather tweets from Twitter with the hashtag #loveisblindjapan and the phrase "love is blind japan". I will gather posts from Reddit with the sub Reddit r/loveisblindjapan".
+
 ## Research Issues
 
 Some issues that may come up are:
