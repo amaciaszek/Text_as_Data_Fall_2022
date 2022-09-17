@@ -13,7 +13,7 @@ categories:
   - blog posts
 ---
 
-# Literature search 1
+# Literature search
 
 Covid-19 has greatly changed the way we work. While people were hesitating for remote work before pandemic, many employees now declare their interest and willingness to continue digital, online work after the pandemic. In this paper ‘Social Media Users’ Opinions on Remote Work during the COVID-19 Pandemic. Thematic and Sentiment Analysis’, authors collected twitter dataset from twitter API between Feb 1st, 2020 and Aug 10th 2020 to investigate users’ perceptions for remote working and revealing the emerging topic along with remote working. They applied text mining analysis and identified that most of the posts related to remote work are positive. They also utilized word cloud analysis and indicated that remote work has an impact on creation of new trends such as workanywhere and remoteteam. 
 
