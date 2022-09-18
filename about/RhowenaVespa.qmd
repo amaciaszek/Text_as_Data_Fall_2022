@@ -12,15 +12,6 @@ about:
       href: https://github.com/owenvespa
 ---
 
-##Instructions
-
-  - save a copy of this document as *FirstLast.qmd* in the **about** folder
-  - replace *Your Name* in yaml header with your first and last name
-  - save an image (jpeg, png) to use in the **about/images** folder
-  - replace image names in yaml header
-  - replace github user name
-  - fill in information below, as appropriate
-  - commit to github and submit pull request
 
 ## Education/Work Background
 
@@ -45,5 +36,5 @@ I spend my time gardening in the spring, summer and fall. \ Winters are reserved
 
 ## Fun fact
 
-I have been to too many Comic con and anime conventions, includi and ng San Diego Comic Con. \ You know this means I have a good amount of pictures with celebrities!\ 
+I have been to too many Comic con and anime conventions, including San Diego Comic Con. \ You know this means I have a good amount of pictures with celebrities!\ 
 The most recent ones are with Obi-Wan Kenobi (Ewan McGregor) and SHIELD's Ming-Na Wen.
