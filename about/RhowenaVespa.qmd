@@ -1,0 +1,49 @@
+---
+title: "About Rhowena Vespa"
+image: images/ripple.jpg
+about:
+  template: solana
+  image-width: 15em
+  image-shape: round
+  image: images/ripple.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/owenvespa
+---
+
+##Instructions
+
+  - save a copy of this document as *FirstLast.qmd* in the **about** folder
+  - replace *Your Name* in yaml header with your first and last name
+  - save an image (jpeg, png) to use in the **about/images** folder
+  - replace image names in yaml header
+  - replace github user name
+  - fill in information below, as appropriate
+  - commit to github and submit pull request
+
+## Education/Work Background
+
+Pharmacist at CVS Specialty \ MS Data Analytics and Computational Social Science student at UMass Amherst
+
+## R experience
+
+A year of R experience earned through DACSS courses
+
+## Research interests
+
+Research will focus on health equity issues, \ narrowing health disparity gaps and \ understanding behavior to improve health outcomes.
+
+
+## Hometown
+
+Born and raised in the Philippines but now \ considers Brookline, MA as my hometown.
+
+## Hobbies
+
+I spend my time gardening in the spring, summer and fall. \ Winters are reserved for experimenting on vegan soup recipes.
+
+## Fun fact
+
+I have been to too many Comic con and anime conventions, includi and ng San Diego Comic Con. \ You know this means I have a good amount of pictures with celebrities!\ 
+The most recent ones are with Obi-Wan Kenobi (Ewan McGregor) and SHIELD's Ming-Na Wen.
