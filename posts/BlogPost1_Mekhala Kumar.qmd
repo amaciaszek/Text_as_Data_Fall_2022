@@ -20,10 +20,6 @@ categories:
 #| message: false
 
 library(tidyverse)
-library(ggplot2)
-library(readr)
-
-knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
 ```
 
 ## Description of the papers
