@@ -66,7 +66,8 @@ In the mainstream corpora, it was found that the words included in the masculine
 
 ## Topic ideas
 
-1.  I found Rao and Taboada's research of the frequency of women and men being quoted interesting and one research idea I had was to apply similar methods to the context of American newspapers or Indian newspapers.Perhaps, the main topics researched would be limited to two categories like sports and entertainment.\
+1.  I found Rao and Taboada's research of the frequency of women and men being quoted interesting and one research idea I had was to apply similar methods to the context of American newspapers or Indian newspapers.Perhaps, the main topics researched would be limited to two categories like sports and entertainment.
+
 A related idea to this would be comparing how gender may be discussed differently in 2 newspaper companies such as the New York Times and Los Angeles Times.
 
 2.  A second idea I had was Observing the type of language used to describe advertisements for different genders in either the United States or India.
