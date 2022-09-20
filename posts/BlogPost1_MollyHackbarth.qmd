@@ -1,0 +1,276 @@
+---
+title: "Blog Post One"
+author: "Molly Hackbarth"
+desription: "Exploring Text as Data and Creating a Research Question"
+date: "09/14/2022"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-copy: true
+    code-tools: true
+categories:
+  - blog posts
+---
+
+# Introduction to Text as Data Analysis
+
+While I do not know much about text as data, I look forward to understanding it more! In order to try and understand text as data more, I plan to use social media as a tool to gather a large amount of text. I currently plan to use both Reddit and Twitter to gather the text. My current research idea is based on mining text for a reality TV dating show.
+
+## Academic Articles
+
+Below there are three academic articles that I found to be useful for my research idea.
+
+-   Two articles about text as data with social media
+
+-   Characteristics and demographics of people who watch reality dating shows
+
+### Exploring the Relationship Between Viewer Experience and Movie Genre -- A Study Based on Text Mining of Online Movie Reviews
+
+This article by Urszula Świerczyńska-Kaczor focuses on providing insights about how viewers felt out of three movie genres: suspense, westerns, and comedies. This article also would like to provide evidence that "traditional" research can benefit from other disciplines such as consumer neuroscience.
+
+#### Research Questions
+
+The research question is what kind of viewer experience, based on the three selected genres (suspense, westerns, and comedies), can be seen through text mining of online reviews?
+
+A second layer to this question was does text mining of online reviews reflect that some movie genres viewer's have more similar views than other movie genres?
+
+#### Data Used and How Data was Collected
+
+The data came from August 2019, with reviews being randomly sampled from both Rotten Tomatoes and Amazon.
+
+For the reviews:
+
+-   624 reviews of "Psycho" (1960).
+
+-   806 reviews of "The Good, The Bad, and The Ugly" (1966).
+
+-   600 reviews of the first season of "Curb Your Enthusiasm" (2000).
+
+-   The distributions of "stars" in the sample give a general evaluation of the movie based on both sites.
+
+-   Only English language reviews were included.
+
+-   Reviews were analyzed without considering how the movie was watched (DVD, TV, streaming, etc.)
+
+#### Hypotheses
+
+Although not outwardly mentioned, the author did seem to believe there would be some connection to certain genres having people perceive the movie similarly.
+
+#### Methods Used
+
+Both the qualitative and quantitative analyses used Statistica software and KH Coder software.
+
+Viewer's experiences were also analyzed by manual text analysis of 50 reviews of each movie.
+
+#### Findings
+
+Overall findings include:
+
+-   There is a broad spectrum of factors that impact viewers experiences with all three movie genres.
+
+-   The analysis had "general factors" relevant to all genres such as viewer's expectations for the genre and main characters of the movie.
+
+    -   A surprise category was a viewer's experience of a historical event seen with reviews of "The Good, The Bad, and The Ugly".
+
+#### Takeaway
+
+Overall I found this article extremely useful to understanding how to use text as data in a way that focuses on reviews. I also enjoyed learning more about how they broke out reviews by hand by "main topic" and "sub topic".
+
+I do wish the author had picked a couple more movie genres. I would've been interested to see if a romance movie has any similarities to a thriller for example. I also would've liked to see the top 20 words of importance as the first five words for each category weren't surprising (for example "Psycho" had movie, psycho, hitchcock, classic, and watch).
+
+#### Reference
+
+Świerczyńska-Kaczor, Urszula. (2019). Exploring the relationship between viewer experience and movie genre--a study based on text mining of online movie reviews. *Problemy Zarządzania*, (5/2019 (85)), 154-175.
+
+### Exploring Online Depression Forums via Text Mining: A Comparison of Reddit and a Curated Online Forum
+
+This article by Luis Moßburger, Felix Wende, Kay Brinkmann and Thomas Schmidt explores Reddit (r/depression) and Twitter (Beyond Blue) focusing on depression. Brinkman & et al. use various text mining techniques to figure out how language (such as positive or negative words) are different between the two social medias.
+
+#### Research Question
+
+The research question is how do Reddit and Twitter differ in people's language of posting or tweeting on depression?
+
+#### Data Used and How Data was Collected
+
+Data was collected from Beyond Blue (using Python's standard libraries *lxml* and *urllib*) and r/depression (using Pushshift.io API Wrapper *psaw* and the Python Reddit API Wrapper *praw*)
+
+For Beyond Blue (non-profit organization funded by Australian governments and states)
+
+-   Had a noticeably smaller corpus than r/depression.
+
+-   28,422 posts were collected.
+
+    -   3,922 are initial posts (13.8%) of threads.
+
+    -   24,500 are answers inside threads (86.2%).
+
+For r/depression
+
+-   1,007,134 posts (submission and comments) were collected
+
+    -   2,295 posts were filtered due to lack of content.
+
+    -   158,638 posts were not used due to the posts being deleted by the author, moderators, or spam filters.
+
+    -   846,201 posts consisting of 131,073 submissions (15.5%) and 715,128 comments (85.5%) were the end use.
+
+#### Hypotheses
+
+Brinkman & et al.'s do not focus on having a hypotheses at the beginning of this article (they are more interested in descriptive and exploitative work). However they want to explore methods and data to formulate potential hypotheses for future works.
+
+#### Methods Used
+
+The authors used text mining methods, such as word frequencies, topic modeling, word categories, and word sentiment.
+
+The authors used *SpaCy* (Python) for a general corpus analysis.
+
+The Beyond Blue Corpus:
+
+-   Had 4,982,391 tokens divided among 395,544 sentences with an average of 175.3 tokens per post on average.
+
+-   There is a noticeable difference between the average token counts of initial posts and answers.
+
+-   The average token count of a sentence is 12.6.
+
+r/depression:
+
+-   Had 60,632,208 tokens within 5,369,000 sentences with 71.7 tokens on average.
+
+-   An average token count of a sentence is 11.3 tokens.
+
+For word frequencies:
+
+-   All stop words and tokens that were not tagged as a noun were removed.
+
+-   The most common word in Beyond Blue **and** r/depressions was "time". Other often used words were "day", "year", and "depression"
+
+For word categories words were split into language categories using the LIWC dictionary. Once the categories were created the authors then used VADER ( a lexiconbased sentiment analysis tool specifically used with social media sentiments).
+
+| Sentiment | Beyond Blue | r/depression |
+|-----------|-------------|--------------|
+| Positive  | 40.20%      | 34.49%       |
+| Neutral   | 34.42%      | 34.20%       |
+| Negative  | 25.38%      | 31.32%       |
+
+For topic modeling the authors created a Latent Dirichlet Allocation model with the Python library *gensim*. This included removing posts with less than five tokens, removing stop words, removing topics created.
+
+There is a github link with more information here: <https://github.com/lauchblatt/OnlineDepressionForumsTextMining>
+
+#### Findings
+
+Overall findings included that Beyond Blue (Twitter) users were more positive to each other. Beyond Blue general spoke about more adult topics compared to r/depression who spoke about high school and college issues. The authors hypothesize that the professional curation and moderation of a depression forum is positive for discussion that happen in them.
+
+The authors also concluded that Beyond Blue focused on concrete problems are solved compared to r/depression's emotional posts that focused on sharing experiences or conversing about emotions.
+
+#### Takeaway
+
+Overall this was an interesting article! I thought the difference between Reddit and Twitter was quite different than what I thought it would be. I have browsed through both, perhaps more on subreddit's that are created for a female base, I often find Reddit to be the more problem solving and Twitter to be more emotional. However since the article was comparing to a non profit Twitter this may cause for more professionalism needed.
+
+I found this article very helpful to understanding text as data in a bit more detail. Unfortunately the article used Python rather than R, so the packages were unfamiliar to me.
+
+#### Reference
+
+Moßburger, Luis, Wende, Felix, Brinkmann, Kay and Schmidt, Thomas (2021) Exploring Online Depression Forums via Text Mining: A Comparison of Reddit and a Curated Online Forum. Proceedings of the Fifth Social Media Mining for Health Applications Workshop & Shared Task, pp. 70-81.
+
+### Demographic Characteristics and Motives of Individuals Viewing Reality Dating Shows
+
+In this article by Jonathan W. Roberti, Roberti focuses on understanding the personality characteristics and attachment styles of individuals who watched reality dating tv shows.
+
+#### Research Questions
+
+The research questions were what are the demographics, personality characteristics, and attachment styles of individuals that watch Television (TV) dating shows? What are the motives for watching these shows?
+
+#### Data Used and How Data was Collected
+
+Data was collected through an internet survey. The convenience sample size was 601 participants with 413 who watched TV dating shows.
+
+#### Hypotheses
+
+Roberti broke down their research questions into four categories
+
+1.  *Do demographic characteristics differ between individuals that do and do not view television dating shows?* While there is some suspicion younger viewers are interested in viewing these types of shows, Roberti notes there is a lack of prior empirical findings.
+
+2.  *What are the motives for viewing television dating shows?* Roberti's hypotheses on this includes increasing stimulation by watching the show, building a habit around watching the show, escapism, and social learning.
+
+3.  D*o differences in adult attachment styles or personality characteristics occur for individuals that do and do not view television dating shows?* There has been previous findings that that those watching TV dating shows have a higher sensation-seeking scores.
+
+4.  *Do television dating shows influence perceptions about dating and relationships?* Roberti had no hypothesis for this question.
+
+#### Methods Used
+
+As mentioned previously the convenience sample was collected through an internet survey. This included:
+
+-   155 males (25.8%) and 446 females (74.2%).
+
+-   The mean age of males was 30.0 (SD=7.7) and the mean age of females was 28.0 (SD=8.9).
+
+-   A response rate of 87%.
+
+As this survey was done in 2007, Roberti was able to contact various websites to put their survey hyperlink on the main page of the websites contacted.
+
+The survey was at most 10 minutes and contained five sections:
+
+-   Demographic questions,
+
+-   Questions related to television dating shows
+
+-   Relationship Questionnaire (RQ)
+
+-   Sensation Seeking Scale (SSS-V)
+
+Additionally participants were not forced to answer every question. Most questions used a Likert scale.
+
+#### Findings
+
+The findings included:
+
+-   Demographics: Although the survey was done by predominantly Caucasians, the survey found a significant amount of participants who watched TV dating shows were younger females. Additionally participants that had some schooling after high school were more likely to watch as well.
+
+-   Motive for watching: Roberti found that the top three reasons for watching TV dating shows were Excitability, Social Learning, and Escape. Excitability and Escape significantly predict weekly hours of watching TV dating shows.
+
+-   Viewing Practices and Opinions on TV dating shows: Participants who watched TV dating shows tended to watch significantly more TV than those who didn't. Additionally participants that watched TV dating shows believed the shows had a positive influence on wanting to be married and that the shows represented real-life relationships. Participants also wished to be on TV dating shows more than those who did not watch them.
+
+#### Takeaway
+
+Overall the findings were nothing too different to what I expected. From what I've seen on Twitter and heard in person, females are often more likely to watch these shows.
+
+What I did find interesting though was that participants found TV dating shows to be a positive influence on wanting to get married. It also surprised me that participants believed that these relationships were fairly accurate to real-life relationships. When I've heard people talk about these shows it's often for how ridiculously dramatic the shows are.
+
+#### Reference
+
+Jonathan W. Roberti (2007) Demographic Characteristics and Motives of Individuals Viewing Reality Dating Shows, The Communication Review, 10:2, 117-134, DOI: [10.1080/10714420701350403](https://doi.org/10.1080/10714420701350403)\
+
+## Current Research Idea
+
+My current research idea is to understand how people who watched *Love is Blind Japan* felt about the contestants and their relationships. From my very limited knowledge text as data can help by:
+
+-   Going through multiple tweets and Reddit posts to find posts that mention the contestants names.
+
+-   See how often names were mentioned throughout the show.
+
+-   Help to compare what types of words were used in association with the contestant.
+
+-   Help to see how many contestants names are mentioned together.
+
+    -   This may include seeing if there are positive or negative feelings. However from our class reading I know that it may be more difficult to do. I know there are multiple packages that categorize words into positive, negative, and neutral words, however I don't know how accurate they are.
+
+My current research question is: Do Reddit and Twitter differentiate on their views of contestants and their relationships in *Love is Blind Japan*?
+
+A different research question I may use if I only use one social media platform: How does Reddit/Twitter view contestants and their relationships in *Love is Blind Japan*?
+
+I will gather tweets from Twitter with the hashtag #loveisblindjapan and the phrase "love is blind japan". I will gather posts from Reddit with the sub Reddit r/loveisblindjapan".
+
+## Research Issues
+
+Some issues that may come up are:
+
+-   *Is there enough data?* While I have looked at both Reddit and Twitter and feel there is enough data, the data may be lopsided one way or another.
+
+-   *Does each contestant have enough data?* Often more problematic contestants are talked about more than others. Will this cause an issue in finding significance?
+
+-   *Do I want to focus on how people felt about the show or the contestants?* This is a crucial question as each one would involve a different analysis. I'm currently leaning towards the contestants as I believe there will be more data.
+
+-   *How do I want to handle couples?* As this is a reality dating show, how would I decide to show both names? Do I want to see how couples are seen? This would also include friendship posts as well.
+
+-   *Do I want to use both Reddit and Twitter?* While it seems smart to have both social media platforms, due to the class's semester I man be unable to. This will have to be decided on after seeing how long the data would take to clean and edit.
