@@ -8,6 +8,15 @@
   },
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/posts/BlogPost1_NayanJani.html",
+      "/posts/BlogPost1_Mekhala Kumar.html",
+      "/posts/ClaireBattaglia_blogpost1.html",
+      "/posts/MirandaManka_BlogPost1.html",
+      "/posts/Post1_Saaradhaa.html",
+      "/posts/AndreaMah_Blog1.html",
+      "/posts/BlogPost1_MollyHackbarth.html",
+      "/posts/AanchalSetia_blogpostI.html"
+    ]
   }
 ]
