@@ -1,11 +1,11 @@
 ---
 title: "About Rhowena Vespa"
-image: images/ripple.jpg
+image: images/RVpic.jpg
 about:
   template: solana
   image-width: 15em
   image-shape: round
-  image: images/ripple.jpg
+  image: images/RVpic.jpg
   links:
     - icon: github
       text: Github
