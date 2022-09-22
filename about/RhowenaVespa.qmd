@@ -37,8 +37,7 @@ I spend my time gardening in the spring, summer and fall. \ Winters are reserved
 ## Fun fact
 
 I have been to too many Comic con and anime conventions, including San Diego Comic Con. \ You know this means I have a good amount of pictures with celebrities!\ 
-<<<<<<< HEAD
 The most recent ones are with Obi-Wan Kenobi (Ewan McGregor) and SHIELD's Ming-Na Wen.
 =======
-The most recent ones are with Obi-Wan Kenobi (Ewan McGregor) and SHIELD's Ming-Na Wen.
->>>>>>> 51fd18dd1a4ff24687f86df823b1f1c8faf7bf50
+
+
