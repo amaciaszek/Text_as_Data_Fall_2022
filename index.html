@@ -68,9 +68,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -140,7 +140,7 @@ ul.task-list{list-style: none;}
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Claire Battaglia">Claire Battaglia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Gender bias in newspapers">Gender bias in newspapers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LDA">LDA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Topic Modelling">Topic Modelling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog post 1">blog post 1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog post I">blog post I <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog posts">blog posts <span class="quarto-category-count">(2)</span></div><div class="category" data-category="challenge1">challenge1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dataset">dataset <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hw1">hw1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mental_health">mental_health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="my name">my name <span class="quarto-category-count">(1)</span></div><div class="category" data-category="post 1">post 1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text-as-data">text-as-data <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Blog Post 1">Blog Post 1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Claire Battaglia">Claire Battaglia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ethan Campbell">Ethan Campbell <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Gender bias in newspapers">Gender bias in newspapers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LDA">LDA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Premier League">Premier League <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Topic Modelling">Topic Modelling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog post 1">blog post 1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog post I">blog post I <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog posts">blog posts <span class="quarto-category-count">(3)</span></div><div class="category" data-category="challenge1">challenge1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dataset">dataset <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hw1">hw1 <span class="quarto-category-count">(4)</span></div><div class="category" data-category="mental_health">mental_health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="my name">my name <span class="quarto-category-count">(4)</span></div><div class="category" data-category="post 1">post 1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text-as-data">text-as-data <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -160,6 +160,11 @@ ul.task-list{list-style: none;}
 
 </header>
 
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Blog Last Updated: 2022-09-26 00:03:29</code></pre>
+</div>
+</div>
 <p>Hello and welcome to the course blog for Text-as-Data (DACSS 697D). In this course, students learn the fundamentals of text-as-data research, with an introduction to the field and broader theoretical considerations followed by an exploration of a host of different methodological approaches and applications using text-as-data. The focus is on exploration, with students — motivated by central research questions — exploring the opportunities, challenges, and limitations of different approaches.</p>
 
 
@@ -167,7 +172,39 @@ ul.task-list{list-style: none;}
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Blog,mental_health" data-listing-date-sort="1663560000000" data-listing-file-modified-sort="1663693732014" data-listing-reading-time-sort="4.14">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1664164598663" data-listing-reading-time-sort="2.615">
+<div class="thumbnail">
+<a href="./posts/RhowenaVespaBlogOne.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/RhowenaVespaBlogOne.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/RhowenaVespaBlogOne.html">
+<h3 class="no-anchor listing-title">
+Blog Post One - Exploring Healthcare Costs
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+title: “Blog Post One - Exploring Healthcare Costs” author: “Rhowena Vespa” desription: “Initial Research on Healthcare Costs” date: “09/18/2022” format: html: toc: true code-fold: true code-copy: true code-tools: true categories: - hw1 - my name - dataset
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/RhowenaVespaBlogOne.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Blog,mental_health" data-listing-date-sort="1663560000000" data-listing-file-modified-sort="1664164526390" data-listing-reading-time-sort="4.14">
+<div class="thumbnail">
+<a href="./posts/BlogPost1_NayanJani.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/BlogPost1_NayanJani.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/BlogPost1_NayanJani.html">
 <h3 class="no-anchor listing-title">
@@ -202,7 +239,149 @@ Nayan Jani
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="LDA,Topic Modelling,Gender bias in newspapers" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1663693732012" data-listing-reading-time-sort="6.055">
+<div class="quarto-post image-right" data-index="2" data-categories="hw1,my name,dataset" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1664164598662" data-listing-reading-time-sort="2.36">
+<div class="thumbnail">
+<a href="./posts/Blog One Post  Rhowena Vespa.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/Blog One Post  Rhowena Vespa.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/Blog One Post  Rhowena Vespa.html">
+<h3 class="no-anchor listing-title">
+Blog Post One - Exploring Healthcare Costs
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('hw1'); return false;">
+hw1
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('my name'); return false;">
+my name
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dataset'); return false;">
+dataset
+</div>
+</div>
+<a href="./posts/Blog One Post  Rhowena Vespa.html">
+<div class="listing-description">
+The research aims to understand the effects of financial cost on decisions affecting access to healthcare services. Specifically, the study looks on health-related financial uncertainty and how patients view access to medications as cost prohibitive. It also studied perceptions of health systems and specialty pharmacies. What data are used?
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/Blog One Post  Rhowena Vespa.html">
+<div class="listing-date">
+Sep 18, 2022
+</div>
+<div class="listing-author">
+Rhowena Vespa
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="hw1,my name,dataset" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1664164598662" data-listing-reading-time-sort="2.36">
+<div class="thumbnail">
+<a href="./posts/Blog One Rhowena Vespa.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/Blog One Rhowena Vespa.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/Blog One Rhowena Vespa.html">
+<h3 class="no-anchor listing-title">
+Blog Post One - Exploring Healthcare Costs
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('hw1'); return false;">
+hw1
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('my name'); return false;">
+my name
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dataset'); return false;">
+dataset
+</div>
+</div>
+<a href="./posts/Blog One Rhowena Vespa.html">
+<div class="listing-description">
+The research aims to understand the effects of financial cost on decisions affecting access to healthcare services. Specifically, the study looks on health-related financial uncertainty and how patients view access to medications as cost prohibitive. It also studied perceptions of health systems and specialty pharmacies. What data are used?
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/Blog One Rhowena Vespa.html">
+<div class="listing-date">
+Sep 18, 2022
+</div>
+<div class="listing-author">
+Rhowena Vespa
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="hw1,my name,dataset" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1664164598662" data-listing-reading-time-sort="2.37">
+<div class="thumbnail">
+<a href="./posts/BlogOne_RVespa_Research.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/BlogOne_RVespa_Research.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/BlogOne_RVespa_Research.html">
+<h3 class="no-anchor listing-title">
+Blog Post One - Exploring Healthcare Costs
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('hw1'); return false;">
+hw1
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('my name'); return false;">
+my name
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dataset'); return false;">
+dataset
+</div>
+</div>
+<a href="./posts/BlogOne_RVespa_Research.html">
+<div class="listing-description">
+The research aims to understand the effects of financial cost on decisions affecting access to healthcare services. Specifically, the study looks on health-related financial uncertainty and how patients view access to medications as cost prohibitive. It also studied perceptions of health systems and specialty pharmacies. What data are used?
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/BlogOne_RVespa_Research.html">
+<div class="listing-date">
+Sep 18, 2022
+</div>
+<div class="listing-author">
+Rhowena Vespa
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="LDA,Topic Modelling,Gender bias in newspapers" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1664164526388" data-listing-reading-time-sort="6.055">
+<div class="thumbnail">
+<a href="./posts/BlogPost1_Mekhala Kumar.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/BlogPost1_Mekhala Kumar.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/BlogPost1_Mekhala Kumar.html">
 <h3 class="no-anchor listing-title">
@@ -240,7 +419,14 @@ Mekhala Kumar
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Claire Battaglia,text-as-data,blog post 1" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1663693732014" data-listing-reading-time-sort="3.595">
+<div class="quarto-post image-right" data-index="6" data-categories="Claire Battaglia,text-as-data,blog post 1" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1664164526391" data-listing-reading-time-sort="3.595">
+<div class="thumbnail">
+<a href="./posts/ClaireBattaglia_blogpost1.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/ClaireBattaglia_blogpost1.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/ClaireBattaglia_blogpost1.html">
 <h3 class="no-anchor listing-title">
@@ -278,7 +464,14 @@ Claire Battaglia
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="blog posts" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1663693732015" data-listing-reading-time-sort="6.21">
+<div class="quarto-post image-right" data-index="7" data-categories="blog posts" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1664164526392" data-listing-reading-time-sort="6.21">
+<div class="thumbnail">
+<a href="./posts/MirandaManka_BlogPost1.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/MirandaManka_BlogPost1.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/MirandaManka_BlogPost1.html">
 <h3 class="no-anchor listing-title">
@@ -310,7 +503,14 @@ Miranda Manka
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="post 1" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1663693732016" data-listing-reading-time-sort="5.065">
+<div class="quarto-post image-right" data-index="8" data-categories="post 1" data-listing-date-sort="1663473600000" data-listing-file-modified-sort="1664164526393" data-listing-reading-time-sort="5.065">
+<div class="thumbnail">
+<a href="./posts/Post1_Saaradhaa.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/Post1_Saaradhaa.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/Post1_Saaradhaa.html">
 <h3 class="no-anchor listing-title">
@@ -342,7 +542,14 @@ Saaradhaa M
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="hw1,challenge1,my name,dataset,ggplot2" data-listing-date-sort="1663300800000" data-listing-file-modified-sort="1663693732012" data-listing-reading-time-sort="7.625">
+<div class="quarto-post image-right" data-index="9" data-categories="hw1,challenge1,my name,dataset,ggplot2" data-listing-date-sort="1663300800000" data-listing-file-modified-sort="1664164526386" data-listing-reading-time-sort="7.625">
+<div class="thumbnail">
+<a href="./posts/AndreaMah_Blog1.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/AndreaMah_Blog1.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/AndreaMah_Blog1.html">
 <h3 class="no-anchor listing-title">
@@ -386,7 +593,94 @@ Andrea Mah
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="blog posts" data-listing-date-sort="1663128000000" data-listing-file-modified-sort="1663693732013" data-listing-reading-time-sort="11.965">
+<div class="quarto-post image-right" data-index="10" data-categories="blog posts" data-listing-date-sort="1663300800000" data-listing-file-modified-sort="1664164598664" data-listing-reading-time-sort="4.375">
+<div class="thumbnail">
+<a href="./posts/YanShi_blogpost1.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/YanShi_blogpost1.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/YanShi_blogpost1.html">
+<h3 class="no-anchor listing-title">
+Blog Post
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('blog posts'); return false;">
+blog posts
+</div>
+</div>
+<a href="./posts/YanShi_blogpost1.html">
+<div class="listing-description">
+Covid-19 has greatly changed the way we work. While people were hesitating for remote work before pandemic, many employees now declare their interest and willingness to continue digital, online work after the pandemic. In this paper ‘Social Media Users’ Opinions on Remote Work during the COVID-19 Pandemic. Thematic and Sentiment Analysis’, authors collected twitter dataset from twitter API between Feb 1st, 2020 and Aug 10th 2020 to investigate users’ perceptions for remote working and revealing the emerging topic along with remote working. They applied text mining analysis and identified that most of the posts related to remote work are positive. They also utilized word cloud analysis and indicated that remote work has an impact on creation of new trends such as workanywhere and remoteteam.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/YanShi_blogpost1.html">
+<div class="listing-date">
+Sep 16, 2022
+</div>
+<div class="listing-author">
+Yan Shi
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="Blog Post 1,Ethan Campbell,Premier League" data-listing-date-sort="1663128000000" data-listing-file-modified-sort="1664164598663" data-listing-reading-time-sort="7.11">
+<div class="thumbnail">
+<p><a href="./posts/Blogpost1EthanCampbell.html"> <img src="./posts/images/Capture.PNG" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/Blogpost1EthanCampbell.html">
+<h3 class="no-anchor listing-title">
+Blog Post 1
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Blog Post 1'); return false;">
+Blog Post 1
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ethan Campbell'); return false;">
+Ethan Campbell
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Premier League'); return false;">
+Premier League
+</div>
+</div>
+<a href="./posts/Blogpost1EthanCampbell.html">
+<div class="listing-description">
+Articles one
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/Blogpost1EthanCampbell.html">
+<div class="listing-date">
+Sep 14, 2022
+</div>
+<div class="listing-author">
+Ethan Campbell
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="blog posts" data-listing-date-sort="1663128000000" data-listing-file-modified-sort="1664164526389" data-listing-reading-time-sort="11.965">
+<div class="thumbnail">
+<a href="./posts/BlogPost1_MollyHackbarth.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/BlogPost1_MollyHackbarth.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/BlogPost1_MollyHackbarth.html">
 <h3 class="no-anchor listing-title">
@@ -418,7 +712,14 @@ Molly Hackbarth
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="blog post I" data-listing-date-sort="1659412800000" data-listing-file-modified-sort="1663693732010" data-listing-reading-time-sort="2.56">
+<div class="quarto-post image-right" data-index="13" data-categories="blog post I" data-listing-date-sort="1659412800000" data-listing-file-modified-sort="1664164526384" data-listing-reading-time-sort="2.56">
+<div class="thumbnail">
+<a href="./posts/AanchalSetia_blogpostI.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/AanchalSetia_blogpostI.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/AanchalSetia_blogpostI.html">
 <h3 class="no-anchor listing-title">

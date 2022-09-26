@@ -2,19 +2,27 @@
   {
     "listing": "/about.html",
     "items": [
+      "/about/RhowenaVespa.html",
       "/about/AdithyaParupudi.html",
-      "/about/AlexisGamez.html"
+      "/about/AlexisGamez.html",
+      "/about/EC.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/RhowenaVespaBlogOne.html",
       "/posts/BlogPost1_NayanJani.html",
+      "/posts/Blog One Post  Rhowena Vespa.html",
+      "/posts/Blog One Rhowena Vespa.html",
+      "/posts/BlogOne_RVespa_Research.html",
       "/posts/BlogPost1_Mekhala Kumar.html",
       "/posts/ClaireBattaglia_blogpost1.html",
       "/posts/MirandaManka_BlogPost1.html",
       "/posts/Post1_Saaradhaa.html",
       "/posts/AndreaMah_Blog1.html",
+      "/posts/YanShi_blogpost1.html",
+      "/posts/Blogpost1EthanCampbell.html",
       "/posts/BlogPost1_MollyHackbarth.html",
       "/posts/AanchalSetia_blogpostI.html"
     ]
