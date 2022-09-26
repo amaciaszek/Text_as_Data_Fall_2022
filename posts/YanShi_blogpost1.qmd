@@ -1,0 +1,43 @@
+---
+title: "Blog Post"
+author: "Yan Shi"
+desription: "Digital emotion contagion"
+date: "09/16/2022"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-copy: true
+    code-tools: true
+categories:
+  - blog posts
+---
+
+# Literature search
+
+Covid-19 has greatly changed the way we work. While people were hesitating for remote work before pandemic, many employees now declare their interest and willingness to continue digital, online work after the pandemic. In this paper ‘Social Media Users’ Opinions on Remote Work during the COVID-19 Pandemic. Thematic and Sentiment Analysis’, authors collected twitter dataset from twitter API between Feb 1st, 2020 and Aug 10th 2020 to investigate users’ perceptions for remote working and revealing the emerging topic along with remote working. They applied text mining analysis and identified that most of the posts related to remote work are positive. They also utilized word cloud analysis and indicated that remote work has an impact on creation of new trends such as workanywhere and remoteteam. 
+
+This study could be an example for my own project. I am also planning to conduct sentiment analysis for remote working but with extended period, from 2019 to 2021. Besides analyzing the sentiment score for tweets, we can further estimate meta-voicing in twitter, comparing users’ interaction through liking or comment before pandemic and during pandemic. Therefore, we can map users’ activities with the trajectory of their perception changes toward remote work, offering more evidence through meta-voicing.
+
+The booming development of online social networks provides a novel way of expressing emotions. In this study, Multi-Label Emotion Classification for Tweets in Weibo, Method and Application, authors developed a multi-label emotion classification algorithm for tweets in Weibo. In particular, authors developed a model that classified emotion into six categories, Angry, Excited, Happy, Sad, Scared and Tender. The training dataset are crawled from Weibo between Dec 17, 2013 to Jan 10, 2014. However, this model is too complex for me to replicate. 
+
+I am interested in classifying text emotions to find out users’ exact emotions toward remote working. Identifying users’ emotion allows me to have a comprehensive understanding of users’ perceptions and how their emotions shift over time.
+
+# My research idea
+
+The emergence of the Covid-19 pandemic has brought the surge of the Great Reshuffle, with many people rethinking their career paths and personal life trajectories. Because the quarantines, lockdowns and self-imposed isolation limited interpersonal communication in most offline settings, people have turned to social networking sites to communicate their feelings and thoughts about the changes in their work-life interface. With the unprecedented number of employees being forced to work from home, the stigma that remote work was less productive has diminished (Barrero et al., 2021). A survey from LinkedIn (2021) suggests that when considering a job opportunity, the most important factor for people across 200 countries was work-life balance. The desire for flexible work options has increased by 12.3% since the beginning of the pandemic, making it the fastest-growing priority among job candidates on LinkedIn. While the increasing demand for flexible working arrangements has received much attention from different stakeholders and segments of the society, it remains largely unclear how the collective perception about remote work has changed so rapidly and the extent to which it is associated with people’s shared experiences about work-life role integration in the digital sphere. This research focuses on examining the influence of digital emotion transmission in the phase of shared role integration. Drawn on the literature on emotional contagion (Hatfield et al., 1993) and micro-role transitions (Ashforth et al. 2000), we suggest that the disruptive changes during the pandemic made one’s work-life boundary more permeable and flexible than that prior to the pandemic. As a result, remote workers were likely to engage in an increasing number of micro-role transitions. In the absence of mental scripts for such transitions, people were more likely to share their experiences about their daily episodes of role interruptions and boundary work online. Because emotional content tends to be promoted in digital platforms, users of these platforms are likely be exposed to others’ affective expressions with a high level of frequency and intensity (Goldenberg & Gross, 2020). As such, feelings about work-life role integration are likely to spread and gradually become convergent among those platform users. This research will leverage sentiment analysis to reveal how people’s emotional expressions of remote work have changed during the pandemic as well as to uncover the trajectory of digital emotion contagion patterns. 
+
+#Research question
+
+How the collective perception about remote work has changed so rapidly and the extent to which it is associated with people’s shared experiences about work-life role integration in the digital sphere.
+
+#Data source
+
+twitter dataset from 2019-2022, with key words such as remote work, work from home in US.
+
+The prior study has demonstrated the high frequency of tweets related to remote work from March 2020, indicting twitter users were actively discussing remote work online. Thus, we plan to use sentiment analysis to analyze people’s perception towards remote work, whether it is positive or negative and the process of collective emotion. We will also apply topic modeling to reveal what main topics of remote work people share online.
+
+#Reference:
+
+Stanisław Wrycza & Jacek Maślankowski (2020) Social Media Users’ Opinionson Remote Work during the COVID-19 Pandemic. Thematic and Sentiment Analysis, InformationSystems Management, 37:4, 288-297, DOI: 10.1080/10580530.2020.1820631
+Yang, J., Jiang, L., Wang, C., & Xie, J. (2014, November). Multi-label emotion classification for tweets in weibo: method and application. In 2014 IEEE 26th International Conference on Tools with Artificial Intelligence (ICTAI) (pp. 424-428). IEEE Computer Society.
