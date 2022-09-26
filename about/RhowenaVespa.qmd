@@ -1,0 +1,43 @@
+---
+title: "About Rhowena Vespa"
+image: images/RVpic.jpg
+about:
+  template: solana
+  image-width: 15em
+  image-shape: round
+  image: images/RVpic.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/owenvespa
+---
+
+
+## Education/Work Background
+
+Pharmacist at CVS Specialty \ MS Data Analytics and Computational Social Science student at UMass Amherst
+
+## R experience
+
+A year of R experience earned through DACSS courses
+
+## Research interests
+
+Research will focus on health equity issues, \ narrowing health disparity gaps and \ understanding behavior to improve health outcomes.
+
+
+## Hometown
+
+Born and raised in the Philippines but now \ considers Brookline, MA as my hometown.
+
+## Hobbies
+
+I spend my time gardening in the spring, summer and fall. \ Winters are reserved for experimenting on vegan soup recipes.
+
+## Fun fact
+
+I have been to too many Comic con and anime conventions, including San Diego Comic Con. \ You know this means I have a good amount of pictures with celebrities!\ 
+The most recent ones are with Obi-Wan Kenobi (Ewan McGregor) and SHIELD's Ming-Na Wen.
+=======
+
+
